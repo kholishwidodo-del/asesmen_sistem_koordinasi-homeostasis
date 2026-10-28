@@ -29,32 +29,37 @@
     .hidden{display:none!important}
     @media(max-width:700px){.exam-layout{display:block!important}.question-nav{position:static!important;max-height:180px;overflow:auto;margin-bottom:1.25rem}}
   </style>
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
   <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
   <script src="/_sdk/47b49acbce8d4e14.data_sdk.js" type="text/javascript" integrity="sha512-Q7ocGwX+GJGp9twzwnkXfCUAwQkaCh99VK0LYmxqjQvV3IEFlYrnsSbtoFLMg9907WJYePujU3Tm4/KkNQa1wA=="></script>
   <script src="/_sdk/e377dd2e89eaf46e.editing_sdk.js" type="text/javascript" integrity="sha512-Yb01Sogdc7iekk4RUo8wowcDWWOaYm0zS43022MSWUHEQ3s9VnInFoewxq5KGoOcEWTDKOEIc5sFTJgdnZQMhw=="></script>
   <script src="/_sdk/c774963abc6f03de.resizing_sdk.js" type="text/javascript" integrity="sha512-fVA81vJnL46vGKioyJJbk3XaJjdaKaDnDMTShVQ1S1kBQM4xcUhuy93NTuRYEspgyUVmkpVo4DcQ4X0vP2kYcQ=="></script>
  </head>
  <body data-template-id="__page-root" class="app-shell" style="background: rgb(246, 245, 239);">
   <header data-template-id="top-bar" class="canva-header w-full px-5 py-4 md:px-10 flex flex-wrap items-center justify-between gap-3" style="background:#142c37">
-   <div class="flex items-center gap-3"><span class="w-9 h-9 rounded-xl bg-[#b8edce] text-[#142c37] grid place-items-center font-bold" aria-hidden="true">IX</span> <span data-template-id="brand-name" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;">MTsN 1 Kota Malang · IPA</span>
+   <div class="flex items-center gap-3">
+    <span class="w-9 h-9 rounded-xl bg-[#b8edce] text-[#142c37] grid place-items-center font-bold" aria-hidden="true">IX</span> <span data-template-id="brand-name" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;">MTsN 1 Kota Malang · IPA</span>
    </div><span data-template-id="header-badge" class="canva-tag rounded-full px-3 py-1 border border-[#86a99c]" style="color: rgb(217, 245, 229); font-weight: 700; font-style: normal; font-size: 11px;">ASESMEN SUMATIF · SISTEM KOORDINASI &amp; HOMEOSTASIS</span>
   </header>
   <main class="w-full max-w-6xl mx-auto px-4 md:px-8 py-7 md:py-12">
-   <section id="intro" class="surface rounded-3xl p-6 md:p-10 max-w-3xl mx-auto"><span data-template-id="intro-kicker" class="canva-tag font-bold tracking-widest" style="color: rgb(35, 111, 82); font-weight: 700; font-style: normal; font-size: 15px;">CBT • IPA KELAS IX</span>
+   <section id="intro" class="surface rounded-3xl p-6 md:p-10 max-w-3xl mx-auto">
+    <span data-template-id="intro-kicker" class="canva-tag font-bold tracking-widest" style="color: rgb(35, 111, 82); font-weight: 700; font-style: normal; font-size: 15px;">CBT • IPA KELAS IX</span>
     <h1 data-template-id="intro-title" class="canva-text display mt-4 leading-tight" style="color: rgb(20, 44, 55); font-weight: 700; font-style: normal; font-size: 30px;">Pahami tubuh. Baca situasi. Ambil keputusan.</h1>
     <p data-template-id="intro-description" class="canva-text mt-4 leading-relaxed" style="color: rgb(82, 101, 106); font-weight: 400; font-style: normal; font-size: 15px;">40 soal kontekstual · 80 menit. Terdiri atas 20 pilihan ganda, 10 pilihan ganda kompleks, 5 menjodohkan, dan 5 benar–salah. Setiap pilihan ganda kompleks memiliki tepat dua jawaban benar.</p>
     <div class="mt-6 rounded-2xl bg-[#edf8f0] p-4">
      <p data-template-id="intro-warning" class="canva-text" style="color: rgb(39, 89, 65); font-weight: 400; font-style: normal; font-size: 15px;">Isi identitas dengan benar. Waktu berjalan setelah tombol Mulai ditekan. Jangan memuat ulang halaman selama ujian. Jawaban dikirim ke Canva Sheet saat selesai atau waktu habis.</p>
     </div>
     <form id="start-form" class="mt-7 grid sm:grid-cols-2 gap-4">
-     <div class="sm:col-span-2"><label data-template-id="name-label" class="canva-text block font-semibold mb-2" for="student-name" style="color: rgb(25, 50, 58); font-weight: 600; font-style: normal; font-size: 15px;">Nama lengkap</label> <input id="student-name" required="" maxlength="100" autocomplete="name" class="w-full rounded-xl border border-[#cbd9d0] p-3" placeholder="Nama sesuai daftar kelas">
+     <div class="sm:col-span-2">
+      <label data-template-id="name-label" class="canva-text block font-semibold mb-2" for="student-name" style="color: rgb(25, 50, 58); font-weight: 600; font-style: normal; font-size: 15px;">Nama lengkap</label> <input id="student-name" required="" maxlength="100" autocomplete="name" class="w-full rounded-xl border border-[#cbd9d0] p-3" placeholder="Nama sesuai daftar kelas">
      </div>
-     <div><label data-template-id="number-label" class="canva-text block font-semibold mb-2" for="student-number" style="color: rgb(25, 50, 58); font-weight: 600; font-style: normal; font-size: 15px;">Nomor absen</label> <input id="student-number" required="" maxlength="10" inputmode="numeric" pattern="[0-9]+" class="w-full rounded-xl border border-[#cbd9d0] p-3" placeholder="Contoh: 12">
+     <div>
+      <label data-template-id="number-label" class="canva-text block font-semibold mb-2" for="student-number" style="color: rgb(25, 50, 58); font-weight: 600; font-style: normal; font-size: 15px;">Nomor absen</label> <input id="student-number" required="" maxlength="10" inputmode="numeric" pattern="[0-9]+" class="w-full rounded-xl border border-[#cbd9d0] p-3" placeholder="Contoh: 12">
      </div>
-     <div><label data-template-id="class-label" class="canva-text block font-semibold mb-2" for="student-class" style="color: rgb(25, 50, 58); font-weight: 600; font-style: normal; font-size: 15px;">Kelas</label> <input id="student-class" required="" maxlength="30" class="w-full rounded-xl border border-[#cbd9d0] p-3" placeholder="Contoh: IX A">
+     <div>
+      <label data-template-id="class-label" class="canva-text block font-semibold mb-2" for="student-class" style="color: rgb(25, 50, 58); font-weight: 600; font-style: normal; font-size: 15px;">Kelas</label> <input id="student-class" required="" maxlength="30" class="w-full rounded-xl border border-[#cbd9d0] p-3" placeholder="Contoh: IX A">
      </div>
-     <p id="start-status" class="sm:col-span-2 text-[#a45322] font-semibold" role="status" aria-live="polite"></p><button data-template-id="start-button" id="start-button" class="canva-button sm:col-span-2 rounded-xl px-6 py-4 font-bold mt-2" style="background: rgb(20, 44, 55); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;" type="submit">Mulai asesmen →</button>
+     <p id="start-status" class="sm:col-span-2 text-[#477660] font-semibold" role="status" aria-live="polite">Menyiapkan penyimpanan jawaban…</p><button data-template-id="start-button" id="start-button" class="canva-button sm:col-span-2 rounded-xl px-6 py-4 font-bold mt-2" style="background: rgb(20, 44, 55); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;" type="submit">Mulai asesmen →</button>
     </form>
    </section>
    <section id="exam" class="hidden">
@@ -77,7 +82,8 @@
       <nav id="number-grid" class="grid grid-cols-5 gap-2" aria-label="Navigasi soal"></nav>
      </aside>
      <article class="surface rounded-2xl p-5 md:p-8 min-w-0">
-      <div class="flex flex-wrap justify-between gap-2 mb-5"><span id="question-index" class="font-bold text-[#236f52]"></span> <span id="question-type" class="text-sm rounded-full bg-[#e8f8ee] px-3 py-1 text-[#236f52]"></span>
+      <div class="flex flex-wrap justify-between gap-2 mb-5">
+       <span id="question-index" class="font-bold text-[#236f52]"></span> <span id="question-type" class="text-sm rounded-full bg-[#e8f8ee] px-3 py-1 text-[#236f52]"></span>
       </div>
       <section class="stimulus rounded-r-xl p-4 md:p-5 leading-relaxed mb-6" aria-label="Stimulus soal">
        <p id="stimulus-kind" class="text-xs font-bold uppercase tracking-widest text-[#236f52] mb-2"></p>
@@ -88,8 +94,10 @@
       <h3 id="question-text" class="font-bold text-xl leading-snug mb-5"></h3>
       <p id="selection-hint" class="text-sm text-[#617374] mb-3"></p>
       <div id="options" class="space-y-3"></div>
-      <div class="mt-8 pt-5 border-t border-[#e1e9e3] flex flex-wrap justify-between gap-3"><button data-template-id="previous-button" id="previous" type="button" class="canva-button rounded-xl border border-[#bacfc2] px-5 py-3 font-semibold" style="color: rgb(20, 44, 55); background: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 15px;">← Sebelumnya</button>
-       <div class="flex gap-2"><button data-template-id="next-button" id="next" type="button" class="canva-button rounded-xl px-5 py-3 font-semibold" style="background: rgb(20, 44, 55); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 15px;">Berikutnya →</button> <button data-template-id="finish-button" id="finish" type="button" class="canva-button hidden rounded-xl px-5 py-3 font-semibold" style="background: rgb(35, 111, 82); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 15px;">Tinjau &amp; kirim</button>
+      <div class="mt-8 pt-5 border-t border-[#e1e9e3] flex flex-wrap justify-between gap-3">
+       <button data-template-id="previous-button" id="previous" type="button" class="canva-button rounded-xl border border-[#bacfc2] px-5 py-3 font-semibold" style="color: rgb(20, 44, 55); background: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 15px;">← Sebelumnya</button>
+       <div class="flex gap-2">
+        <button data-template-id="next-button" id="next" type="button" class="canva-button rounded-xl px-5 py-3 font-semibold" style="background: rgb(20, 44, 55); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 15px;">Berikutnya →</button> <button data-template-id="finish-button" id="finish" type="button" class="canva-button hidden rounded-xl px-5 py-3 font-semibold" style="background: rgb(35, 111, 82); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 15px;">Tinjau &amp; kirim</button>
        </div>
       </div>
      </article>
@@ -101,7 +109,8 @@
     <p id="review-count" class="font-bold mt-5"></p>
     <p id="review-warning" class="text-[#a45322] mt-2"></p>
     <p id="status" class="mt-5 font-semibold" role="status" aria-live="polite"></p>
-    <div class="flex flex-wrap gap-3 mt-7"><button data-template-id="back-button" id="back-review" type="button" class="canva-button rounded-xl border border-[#bacfc2] px-5 py-3 font-bold" style="background: rgb(255, 255, 255); color: rgb(20, 44, 55); font-weight: 700; font-style: normal; font-size: 15px;">Kembali ke soal</button> <button data-template-id="submit-button" id="submit-exam" type="button" class="canva-button rounded-xl px-5 py-3 font-bold" style="background: rgb(35, 111, 82); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;">Kirim jawaban ke Canva Sheet</button>
+    <div class="flex flex-wrap gap-3 mt-7">
+     <button data-template-id="back-button" id="back-review" type="button" class="canva-button rounded-xl border border-[#bacfc2] px-5 py-3 font-bold" style="background: rgb(255, 255, 255); color: rgb(20, 44, 55); font-weight: 700; font-style: normal; font-size: 15px;">Kembali ke soal</button> <button data-template-id="submit-button" id="submit-exam" type="button" class="canva-button rounded-xl px-5 py-3 font-bold" style="background: rgb(35, 111, 82); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;">Kirim jawaban ke Canva Sheet</button> <button id="retry-submit" type="button" class="canva-button hidden rounded-xl border border-[#bacfc2] px-5 py-3 font-bold" style="background:#ffffff;color:#142c37">Coba lagi</button>
     </div>
    </section>
    <section id="result" class="hidden surface rounded-3xl p-8 md:p-12 max-w-2xl mx-auto text-center">
@@ -306,7 +315,7 @@
     }
     async function sendExam(button){
       if(submitting||submitted)return;
-      if(!sheetReady){$('status').textContent='Canva Sheet belum tersedia. Hubungi pengawas dan coba kirim kembali setelah koneksi pulih.';return}
+      if(!sheetReady){$('status').textContent='Penyimpanan belum siap. Coba lagi untuk mengirim hasil.';$('retry-submit').classList.remove('hidden');return}
       submitting=true;button.disabled=true;button.classList.add('opacity-60');
       $('status').textContent='Mengirim jawaban ke Canva Sheet…';
       const p=calculate(),total=Object.values(p).reduce((a,b)=>a+b,0);
@@ -328,7 +337,8 @@
       try{
         const result=await window.dataSdk.create(row);
         if(!result.isOk){
-          $('status').textContent='Pengiriman belum dapat dikonfirmasi. Jangan langsung mengirim ulang jika ragu; hubungi pengawas untuk memeriksa Canva Sheet.';
+          $('status').textContent='Pengiriman belum dapat dikonfirmasi. Coba lagi untuk mengirim hasil.';
+          $('retry-submit').classList.remove('hidden');
           return;
         }
         submitted=true;clearInterval(clock);
@@ -336,7 +346,8 @@
         $('result-details').textContent=`${row.nama_siswa} · ${row.kelas} · ${total} dari 40 benar`;
         show('result');
       }catch(e){
-        $('status').textContent='Pengiriman belum dapat dikonfirmasi. Hubungi pengawas untuk memeriksa Canva Sheet sebelum mencoba lagi.';
+        $('status').textContent='Pengiriman belum dapat dikonfirmasi. Coba lagi untuk mengirim hasil.';
+        $('retry-submit').classList.remove('hidden');
       }finally{
         submitting=false;button.disabled=false;button.classList.remove('opacity-60');
       }
@@ -345,7 +356,7 @@
       $('start-form').addEventListener('submit',e=>{
         e.preventDefault();
         if(!$('start-form').reportValidity())return;
-        if(!sheetReady){$('start-status').textContent='Canva Sheet belum tersedia. Coba buka kembali halaman sebelum memulai.';return}
+        $('start-status').textContent='Penyimpanan jawaban disiapkan otomatis.';
         $('student-display').textContent=`${$('student-name').value.trim()} · ${$('student-class').value.trim()}`;
         deadline=Date.now()+80*60*1000;
         show('exam');render();tick();clock=setInterval(tick,1000);
@@ -363,12 +374,21 @@
       $('finish').addEventListener('click',showReview);
       $('back-review').addEventListener('click',()=>{if(!timedOut)show('exam')});
       $('submit-exam').addEventListener('click',e=>sendExam(e.currentTarget));
+      $('retry-submit').addEventListener('click',async e=>{
+        e.currentTarget.classList.add('hidden');
+        $('status').textContent='Menyiapkan penyimpanan jawaban…';
+        try{
+          const retry=await window.dataSdk.init({onDataChanged(){}});
+          sheetReady=retry.isOk;
+        }catch(error){sheetReady=false}
+        sendExam($('submit-exam'));
+      });
       try{
         const result=await window.dataSdk.init({onDataChanged(){}});
         if(!result.isOk)throw new Error('Canva Sheet tidak tersedia');
         sheetReady=true;
       }catch(e){
-        $('start-status').textContent='Canva Sheet belum tersedia. Coba buka kembali halaman sebelum memulai.';
+        $('start-status').textContent='Penyimpanan jawaban sedang disiapkan otomatis.';
       }
     });
   </script>
